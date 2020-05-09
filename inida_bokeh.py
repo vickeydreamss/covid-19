@@ -14,6 +14,7 @@ output_file("test1.html")
 
 df=pd.read_excel("state.xlsx")
 
+
 source = ColumnDataSource(df)
 x_r = list(df.State)
 x_t = list(df.Confirmed_Cases)

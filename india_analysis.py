@@ -82,7 +82,7 @@ tooltips2 = [('Confirmed_Cases: ','@Confirmed_Cases'), ('Active_Cases: ', '@Acti
 p1.add_tools(HoverTool(tooltips=tooltips2))
 
 layout = column(children = [p, p1])
-
+#opening thre html file
 
 show(layout)
 
